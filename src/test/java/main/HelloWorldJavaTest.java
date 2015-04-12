@@ -4,14 +4,14 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class JavaTest {
+public class HelloWorldJavaTest {
 	@Test
-	public void testPass() {
+	public void pass() {
 		assertTrue(true);
 	}
 
 	@Test
-	public void testFail() {
+	public void fail() {
 		assertTrue(false);
 	}
 }
