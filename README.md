@@ -1,2 +1,2 @@
 # functional-programming-patterns
-Examples from "Functional programming Patterns" in Scala and Clojure.
+Examples from "Functional Programming Patterns" in Scala and Clojure.
