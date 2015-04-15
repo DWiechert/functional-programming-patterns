@@ -54,7 +54,7 @@ public class HttpRequest {
 			return this;
 		}
 
-		public HttpRequest builder() {
+		public HttpRequest build() {
 			return new HttpRequest(this);
 		}
 
