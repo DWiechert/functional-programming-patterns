@@ -130,33 +130,15 @@
 							<goal>add-source</goal>
 							<goal>compile</goal>
 						</goals>
-						<configuration>
-							<sourceDirectories>
-								<sourceDirectory>src/main/clojure</sourceDirectory>
-							</sourceDirectories>
-						</configuration>
 					</execution>
 					<execution>
 						<id>clojure-test</id>
 						<phase>test</phase>
 						<goals>
-							<goal>test-with-junit</goal>
+							<goal>test</goal>
 						</goals>
-						<configuration>
-							<testSourceDirectories>
-								<testSourceDirectory>src/test/clojure</testSourceDirectory>
-							</testSourceDirectories>
-						</configuration>
 					</execution>
 				</executions>
-				<configuration>
-					<sourceDirectories>
-						<sourceDirectory>src/main/clojure</sourceDirectory>
-					</sourceDirectories>
-					<testSourceDirectories>
-						<testSourceDirectory>src/test/clojure</testSourceDirectory>
-					</testSourceDirectories>
-				</configuration>
 			</plugin>
 
 			<plugin>
