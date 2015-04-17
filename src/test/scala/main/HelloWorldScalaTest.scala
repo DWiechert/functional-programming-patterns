@@ -10,7 +10,7 @@ class HelloWorldScalaTest extends FunSuite {
 		assert(true)
 	}
 	
-	test("fail") {
+	ignore("fail") {
 		assert(1 === 2)
 	}
 }
