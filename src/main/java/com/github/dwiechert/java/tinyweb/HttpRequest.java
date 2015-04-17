@@ -1,4 +1,4 @@
-package com.github.dwiechert.tinyweb;
+package com.github.dwiechert.java.tinyweb;
 
 import java.util.HashMap;
 import java.util.Map;

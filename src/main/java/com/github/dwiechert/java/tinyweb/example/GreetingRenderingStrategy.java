@@ -1,9 +1,9 @@
-package com.github.dwiechert.tinyweb.example;
+package com.github.dwiechert.java.tinyweb.example;
 
 import java.util.List;
 import java.util.Map;
 
-import com.github.dwiechert.tinyweb.RenderingStrategy;
+import com.github.dwiechert.java.tinyweb.RenderingStrategy;
 
 public class GreetingRenderingStrategy implements RenderingStrategy {
 	@Override

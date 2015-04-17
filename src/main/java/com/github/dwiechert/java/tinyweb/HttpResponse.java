@@ -1,4 +1,4 @@
-package com.github.dwiechert.tinyweb;
+package com.github.dwiechert.java.tinyweb;
 
 public class HttpResponse {
 	private final String body;

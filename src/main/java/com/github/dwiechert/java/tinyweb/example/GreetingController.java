@@ -1,4 +1,4 @@
-package com.github.dwiechert.tinyweb.example;
+package com.github.dwiechert.java.tinyweb.example;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import com.github.dwiechert.tinyweb.HttpRequest;
-import com.github.dwiechert.tinyweb.TemplateController;
-import com.github.dwiechert.tinyweb.View;
+import com.github.dwiechert.java.tinyweb.HttpRequest;
+import com.github.dwiechert.java.tinyweb.TemplateController;
+import com.github.dwiechert.java.tinyweb.View;
 
 public class GreetingController extends TemplateController {
 	private static final String[] GREETING_PREFIXES = { "Hello", "Greetings", "Salutations", "Hola" };

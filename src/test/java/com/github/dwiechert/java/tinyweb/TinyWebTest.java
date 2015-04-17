@@ -1,6 +1,7 @@
-package com.github.dwiechert.tinyweb;
+package com.github.dwiechert.java.tinyweb;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,9 +10,9 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.github.dwiechert.tinyweb.example.GreetingController;
-import com.github.dwiechert.tinyweb.example.GreetingRenderingStrategy;
-import com.github.dwiechert.tinyweb.example.LoggingFilter;
+import com.github.dwiechert.java.tinyweb.example.GreetingController;
+import com.github.dwiechert.java.tinyweb.example.GreetingRenderingStrategy;
+import com.github.dwiechert.java.tinyweb.example.LoggingFilter;
 
 public class TinyWebTest {
 	@Test

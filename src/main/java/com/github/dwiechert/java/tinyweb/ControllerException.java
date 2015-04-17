@@ -1,4 +1,4 @@
-package com.github.dwiechert.tinyweb;
+package com.github.dwiechert.java.tinyweb;
 
 public class ControllerException extends RuntimeException {
 	private static final long serialVersionUID = 7079499045434554336L;

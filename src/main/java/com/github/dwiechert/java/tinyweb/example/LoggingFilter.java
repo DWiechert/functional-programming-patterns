@@ -1,7 +1,7 @@
-package com.github.dwiechert.tinyweb.example;
+package com.github.dwiechert.java.tinyweb.example;
 
-import com.github.dwiechert.tinyweb.Filter;
-import com.github.dwiechert.tinyweb.HttpRequest;
+import com.github.dwiechert.java.tinyweb.Filter;
+import com.github.dwiechert.java.tinyweb.HttpRequest;
 
 public class LoggingFilter implements Filter {
 	@Override
