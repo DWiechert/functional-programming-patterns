@@ -5,6 +5,6 @@
 	(testing "Pass"
 		(is (= 1 1))))
 		
-(deftest fail
-	(testing "Fail"
-		(is (= 1 2))))
+;; (deftest fail
+;;	(testing "Fail"
+;;		(is (= 1 2))))
