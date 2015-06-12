@@ -9,17 +9,17 @@
 
 (defn- execute-request [http-request handler]
   (let [controller (handler :controller)
-        view (handler :view)]
-    (try
-      {:status-code 200
-       :body
-       (render
-         view
-         (controller http-request))}
-      (catch ControllerException e {:status-code (.getStatusCode e) :body ""})
-      (catch RenderingException e {:status-code 500
-                                   :body "Exeception while render."})
-      (catch Exception e (.printStackTrace e) {:status-code 500 :body ""}))))
+       view (handler :view)]
+   (try
+     {:status-code 200
+      :body
+      (render
+        view
+        (controller http-request))}
+     (catch ControllerException e {:status-code (.getStatusCode e) :body ""})
+     (catch RenderingException e {:status-code 500
+                                  :body "Exeception while render."})
+     (catch Exception e (.printStackTrace e) {:status-code 500 :body ""}))))
 
 (defn- apply-filters [filters http-request]
   (let [composed-filter (reduce comp (reverse filters))]
